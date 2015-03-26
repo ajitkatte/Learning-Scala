@@ -25,21 +25,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Demos.sc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Demos.sc">
+      <file leaf-file-name="ScalaTraits.sc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ScalaTraits.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19209039" vertical-offset="0" max-vertical-offset="3672">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7118644" vertical-offset="47" max-vertical-offset="833">
+              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClassesAndObjectsInScala.sc" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ScalaTypes.sc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ScalaTypes.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.35216573" vertical-offset="0" max-vertical-offset="646">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScalaFunctions.sc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ScalaFunctions.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.519774" vertical-offset="1237" max-vertical-offset="1768">
+              <caret line="89" column="22" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScalaPatterns.sc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ScalaPatterns.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.23163842" vertical-offset="285" max-vertical-offset="884">
+              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassesAndObjectsInScala.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ClassesAndObjectsInScala.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64030135" vertical-offset="0" max-vertical-offset="748">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.8079096" vertical-offset="217" max-vertical-offset="748">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -89,8 +119,11 @@
         <option value="$PROJECT_DIR$/src/ScalaCollections.sc" />
         <option value="$PROJECT_DIR$/src/ScalaBasic.sc" />
         <option value="$PROJECT_DIR$/src/ScalaForLoop.sc" />
-        <option value="$PROJECT_DIR$/src/Demos.sc" />
         <option value="$PROJECT_DIR$/src/ClassesAndObjectInScala.sc" />
+        <option value="$PROJECT_DIR$/src/ScalaPatterns.sc" />
+        <option value="$PROJECT_DIR$/src/ScalaTypes.sc" />
+        <option value="$PROJECT_DIR$/src/ScalaFunctions.sc" />
+        <option value="$PROJECT_DIR$/src/Demos.sc" />
       </list>
     </option>
   </component>
@@ -533,7 +566,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Demos.sc">
+    <entry file="file://$PROJECT_DIR$/src/ScalaTraits.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="4284">
           <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
@@ -557,7 +590,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Demos.sc">
+    <entry file="file://$PROJECT_DIR$/src/ScalaTraits.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="4284">
           <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
@@ -573,7 +606,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Demos.sc">
+    <entry file="file://$PROJECT_DIR$/src/ScalaTraits.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="4284">
           <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
@@ -589,7 +622,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Demos.sc">
+    <entry file="file://$PROJECT_DIR$/src/ScalaTraits.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="4284">
           <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
@@ -605,7 +638,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Demos.sc">
+    <entry file="file://$PROJECT_DIR$/src/ScalaTraits.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="4284">
           <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
@@ -621,7 +654,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Demos.sc">
+    <entry file="file://$PROJECT_DIR$/src/ScalaTraits.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -629,7 +662,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Demos.sc">
+    <entry file="file://$PROJECT_DIR$/src/ScalaTraits.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -703,18 +736,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Demos.sc">
+    <entry file="file://$PROJECT_DIR$/src/ClassesAndObjectsInScala.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19209039" vertical-offset="0" max-vertical-offset="3672">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.8079096" vertical-offset="217" max-vertical-offset="748">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClassesAndObjectsInScala.sc">
+    <entry file="file://$PROJECT_DIR$/src/ScalaPatterns.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64030135" vertical-offset="0" max-vertical-offset="748">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.23163842" vertical-offset="285" max-vertical-offset="884">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ScalaTypes.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35216573" vertical-offset="0" max-vertical-offset="646">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ScalaTraits.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7118644" vertical-offset="47" max-vertical-offset="833">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ScalaFunctions.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.519774" vertical-offset="1237" max-vertical-offset="1768">
+          <caret line="89" column="22" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
           <folding />
         </state>
       </provider>
