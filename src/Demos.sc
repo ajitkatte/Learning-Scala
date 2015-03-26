@@ -2,44 +2,8 @@ import java.io.{File, PrintWriter}
 import java.util
 import java.util.Date
 
-def factorial(number : Int) : BigInt = number match {
-case 0 => 1
-case _ => number * factorial( number-1)
-}
-factorial(5)
-val values = List(2,3,4,5)
-val result = values.map(_*2)
-val newResult = values.foldLeft(Int.MinValue){Math.max}
-for(i <- 0 until 10)
-  println(i)
-object Car {
-  def turn(direction: String) = println("turning " + direction)
-}
-Car turn "right"
-class Car (val year : Int){
-  print("created Car class")
-  private var milesDriven : Int = 0;
-  def miles() = milesDriven
-  def drive(distance : Int): Unit = {
-    milesDriven += Math.abs(distance)
-  }
-}
-val car = new Car(2009)
-println("Car made in "+car.year)
-class Person(val firstName : String, val lastName : String){
-  private var position : String = _
-  println("object created")
 
-  def this(firstName : String, lastName : String, positionHeld : String) ={
-    this(firstName, lastName)
-    position = positionHeld
-  }
-  override def toString():String = {
-    firstName + " " + lastName + " " + " holds " + position
-  }
-}
 
-val john = new Person("Ajit","Katte","Software Developer")
 
 
 

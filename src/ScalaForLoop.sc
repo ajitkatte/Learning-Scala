@@ -4,6 +4,10 @@ for (i <- 1 to 10) {
   println(i)
 }
 
+//until
+for(i <- 0 until 10)
+  println(i)
+
 // Two variables in one for loop
 for (i <- 1 to 5; j <- 6 to 10){
   println("["+i+","+j+"]")
