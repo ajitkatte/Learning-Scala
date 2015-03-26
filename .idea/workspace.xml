@@ -35,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClassesAndObjectInScala.sc" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ClassesAndObjectInScala.sc">
+      <file leaf-file-name="ClassesAndObjectsInScala.sc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ClassesAndObjectsInScala.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7118644" vertical-offset="183" max-vertical-offset="748">
-              <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.64030135" vertical-offset="0" max-vertical-offset="748">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -711,10 +711,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClassesAndObjectInScala.sc">
+    <entry file="file://$PROJECT_DIR$/src/ClassesAndObjectsInScala.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7118644" vertical-offset="183" max-vertical-offset="748">
-          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.64030135" vertical-offset="0" max-vertical-offset="748">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
