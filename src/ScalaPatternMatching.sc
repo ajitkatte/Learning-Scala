@@ -1,4 +1,4 @@
-
+//Pattern matching in scala
 object DayOfWeek extends Enumeration
 {
   val MONDAY = Value("Monday")
@@ -9,6 +9,7 @@ object DayOfWeek extends Enumeration
   val SATURDAY = Value("Saturday")
   val SUNDAY = Value("Sunday")
 }
+
 def getDayOfWeek(day : DayOfWeek.Value) = day match {
   case DayOfWeek.SUNDAY => println(day + " is Funday!!!")
   case DayOfWeek.FRIDAY => println(day + " is last working day of week!!")
@@ -16,23 +17,30 @@ def getDayOfWeek(day : DayOfWeek.Value) = day match {
   case _ => println(day + " boring, working day!!!")
 }
 getDayOfWeek(DayOfWeek.FRIDAY)
+
+
 //Matching anything
 def processThings(thing : Any) =thing match {
   case (a , b) => printf("These seems to be co-ordinates (%f,%f)",a,b)
   case "Male" => println("Welcome Man!")
   case 10 => println("this is just a number")
 }
+
 processThings((10.23,-102.7632))
 processThings("Male")
+
+
 //Matching Lists
 def matchAnyList(items : List[Any]) = items match {
   case List(1,2,_*) => println("This numeric list 1,2,3 ...")
   case List("one","two",_*) => println("This is string list one two, three ...")
   case List("red","blue", otherColors @_*) => println("This is color list and other colors are "+otherColors)
 }
+
 matchAnyList(List(1,2,3))
 matchAnyList(List("one","two","three"))
 matchAnyList(List("red","blue","green","orange"))
+
 
 //Matching types
 def processTypes(input : Any) = input match {
@@ -41,8 +49,26 @@ def processTypes(input : Any) = input match {
   case a : Int if(a > 10) => printf("Processing %d > 10",a)
   case msg : String => println("Processing string "+msg)
 }
-
 processTypes((1,2))
 processTypes((1.23,2.34))
 processTypes(15)
 processTypes("Hello World!")
+
+//Matching using case classes
+abstract class Trade()
+case class Sell(stockSymbol : String, quantity : Int) extends Trade
+case class Buy(stockSymbol : String, quantity : Int) extends Trade
+class TradeProcessor {
+  def processTrade(input : Trade): Unit ={
+    input match {
+      case Sell(stock, 1000) => println("Sold 1000 units of - "+ stock)
+      case Sell(stock, quantity) => printf("Sold out %d units of %s\n", quantity,stock)
+      case Buy(stock, quantity) => printf("Bought %d units of %s\n", quantity,stock)
+    }
+  }
+}
+
+val processor = new TradeProcessor
+processor.processTrade(new Sell("Bats",400))
+processor.processTrade(new Sell("Badminton",1000))
+processor.processTrade(new Buy("Lather",1000))
