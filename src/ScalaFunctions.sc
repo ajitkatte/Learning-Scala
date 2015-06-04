@@ -16,6 +16,17 @@ def inject (arr : Array[Int], initial : Int, operation:(Int,Int)=>Int):Int={
   arr.foreach( el => carryOver = operation(carryOver, el))
   carryOver
 }
+
+//scala tail recursion - factorial
+def tailRecFactorial(number : Int) = {
+def innerFactorial(number : Int, accurate : Int) : Int = number match{
+      case 0 => accurate
+      case _ => innerFactorial(number - 1, number*accurate)
+    }
+  innerFactorial(number,1)
+}
+
+
 val array = Array(2,5,1,9,5,2)
 val sum = inject(array,0, (carryOver, el)=> carryOver+el)
 println("Sum of array "+ array.toString+" is "+sum)
@@ -84,6 +95,7 @@ log(date,"Fo-JsonCall")
 val logWithDateBound = log(new Date,_:String)
 logWithDateBound("message1")
 logWithDateBound("message2")
+
 
 //Closures
 def loopThrough(number : Int )(closure : Int => Unit)={
