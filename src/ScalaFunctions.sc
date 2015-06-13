@@ -19,9 +19,9 @@ def inject (arr : Array[Int], initial : Int, operation:(Int,Int)=>Int):Int={
 
 //scala tail recursion - factorial
 def tailRecFactorial(number : Int) = {
-def innerFactorial(number : Int, accurate : Int) : Int = number match{
-      case 0 => accurate
-      case _ => innerFactorial(number - 1, number*accurate)
+def innerFactorial(number : Int, accumulator : Int) : Int = number match{
+      case 0 => accumulator
+      case _ => innerFactorial(number - 1, number*accumulator)
     }
   innerFactorial(number,1)
 }
